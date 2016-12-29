@@ -22,4 +22,3 @@ Demo目录介绍：
 test目录为测试文件，安装即可体验，old.apk待修复版本，new.apk已修复版本，fix.apatch补丁包，如需体验请安装old.apk,并在/mnt/sdcard/目录下创建hotfix文件夹，然后把fix.apatch复制到hostfix目录下.安装完成后点击THROW EXCEPTION按钮会提示“发现一个bug,赶紧解决”，点击HOT FIX按钮则会查找/mnt/sdcard/hotfix/目录下fix.patch补丁包，并替换MainActivity中test测试方法，再次点击THROW EXCEPTION则会提示bug 已修复。说明成功加载补丁包，并完成修复，修复过程应用无需重启。
 ~~~
 
-
